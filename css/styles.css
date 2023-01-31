@@ -1,0 +1,28 @@
+body {
+  direction: rtl;
+  text-align: justify;
+  text-align-last: center;
+  -moz-text-align-last: center;
+  width: 18em;
+  margin: auto;
+  font-family: "Amiri Quran", serif;
+  font-size: 16pt;
+}
+.basmala {
+  font-size: 18pt;
+  text-align: center;
+}
+.sura-name {
+  font-family: "Reem Kufi", "Amiri Quran", serif;
+  font-size: 24pt;
+  font-feature-settings: "cv01";
+  text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-template-rows: 200px auto;
+    gap: 10px;
+    padding: 1em;
+    max-width: 30rem;
+}
