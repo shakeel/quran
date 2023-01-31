@@ -5,40 +5,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri"
     />
     <link rel="stylesheet" src="/quran/css/styles.css" />
     <title>The Holy Quran</title>
     <style>
       body {
+        direction: rtl;
         text-align: justify;
         text-align-last: center;
-        margin: auto;
+        font-family: sans-serif;
+        padding: 0 26px;
       }
       .basmala {
-        direction: rtl;
-        font-size: 18pt;
+        font-family: "Amiri Quran", serif;
+        font-size: xxx-large;
+        font-weight: bold;
         text-align: center;
       }
       .sura-name {
-        direction: rtl;
-        font-family: "Reem Kufi", "Amiri Quran", serif;
-        font-size: 15pt;
-        font-feature-settings: "cv01";
+        font-family: "Reem Kufi", serif;
+        font-size: xxx-large;
         text-align: center;
+      }
+      .sura {
+        font-family: "Amiri Quran", serif;
+        font-size: xx-large;
+        font-weight: bold;
       }
       .container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fill, auto);
         grid-template-rows: auto;
         gap: 10px;
         padding: 1em;
-        max-width: 30rem;
+        min-width: 20rem;
       }
     </style>
   </head>
@@ -50,31 +60,31 @@
         <div class="item">
           <a href="/quran/surah/001.html">
             1. Al-Fatihah
-            <div class="sura-name">سورة الفاتحة مكیة</div>
+            <div class="sura-name">الفاتحة</div>
           </a>
         </div>
         <div class="item">
           <a href="/quran/surah/002.html">
             2. Al-Baqarah
-            <div class="sura-name">سورة البقرة مدنیة</div>
+            <div class="sura-name">البقرة</div>
           </a>
         </div>
         <div class="item">
           <a href="/quran/surah/003.html">
             3. 'Ali `Imran
-            <div class="sura-name">سورة آل عِمْران مدنیة</div>
+            <div class="sura-name">آل عِمْران</div>
           </a>
         </div>
         <div class="item">
           <a href="/quran/surah/004.html">
             4. An-Nisa'
-            <div class="sura-name">سورة النسَاء مدنیة</div>
+            <div class="sura-name">النسَاء</div>
           </a>
         </div>
         <div class="item">
           <a href="/quran/surah/005.html">
             5. Al-Ma'idah
-            <div class="sura-name">سورة المائدة مدنیة</div>
+            <div class="sura-name">المائدة</div>
           </a>
         </div>
         <div class="item"><a href="/quran/surah/006.html">6. Al-'An`am</a></div>
