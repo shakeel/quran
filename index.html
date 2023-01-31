@@ -2,7 +2,6 @@
 <html lang="ar">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" src="/quran/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +12,38 @@
       href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" src="/quran/css/styles.css" />
     <title>The Holy Quran</title>
+    <style>
+      body {
+        direction: rtl;
+        text-align: justify;
+        text-align-last: center;
+        -moz-text-align-last: center;
+        width: 18em;
+        margin: auto;
+        font-family: "Amiri Quran", serif;
+        font-size: 16pt;
+      }
+      .basmala {
+        font-size: 18pt;
+        text-align: center;
+      }
+      .sura-name {
+        font-family: "Reem Kufi", "Amiri Quran", serif;
+        font-size: 24pt;
+        font-feature-settings: "cv01";
+        text-align: center;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-rows: 200px auto;
+        gap: 10px;
+        padding: 1em;
+        max-width: 30rem;
+      }
+    </style>
   </head>
   <body>
     <header></header>
