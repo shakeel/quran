@@ -2,27 +2,25 @@ body {
     text-align: justify;
     text-align-last: center;
     font-family: sans-serif;
-    font-size: large;
     padding: 0 10px;
 }
 
 .basmala {
     font-family: "Amiri Quran", serif;
-    font-size: xxx-large;
+    font-size: x-large;
     font-weight: bold;
     text-align: center;
 }
 
 .sura-name {
     font-family: "Reem Kufi", serif;
-    font-size: xxx-large;
+    font-size: xx-large;
     text-align: center;
 }
 
 .sura {
     font-family: "Amiri Quran", serif;
     font-size: xx-large;
-    font-weight: bold;
 }
 
 .container {
